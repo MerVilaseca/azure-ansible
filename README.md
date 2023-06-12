@@ -45,7 +45,7 @@ Copy the value of the "Subscription ID" field. This value is your subscription_i
 ```
 These values, must be stored as variables in terraform cloud, store them as sensitive variables.
 
-![Alt text](https://github.com/Jiolloker/terra-azure/blob/master/img/variables.JPG)
+![Alt text](https://github.com/MerVilaseca/azure-ansible/blob/main/variables.JPG)
 
 Then, we need to give permissions to the client we created so it can access the resources in azure.
 ```
@@ -60,7 +60,7 @@ Secondly, search for and select the name of the client created in Azure Active D
 
 Current infrastructure diagram
 
-![Alt text](https://github.com/Jiolloker/terra-azure/blob/master/img/azure%20diagram.JPG)
+![Alt text](https://github.com/MerVilaseca/azure-ansible/blob/main/azure%20diagram.JPG)
 
 
 # Despliegue
@@ -69,7 +69,7 @@ Se depliega a traves de terraform cloud, creando un nuevo workspace y linkeando 
 Luego se debe asignar las variables requeridas por el codigo.
 ```
 
-![Alt text](https://github.com/Jiolloker/terra-azure/blob/master/img/variables2.JPG)
+![Alt text](https://github.com/MerVilaseca/azure-ansible/blob/main/variables2.JPG)
 
 
 ```
@@ -109,16 +109,16 @@ ansible-playbook playbook.yml
 
 # Resultados
 Terraform Cloud
-![Alt text](https://github.com/Jiolloker/terra-azure/blob/master/img/terraform%20cloud%20deploy1.JPG)
-![Alt text](https://github.com/Jiolloker/terra-azure/blob/master/img/terraform%20cloud%20deploy2.JPG)
+![Alt text](https://github.com/MerVilaseca/azure-ansible/blob/main/terraform%20cloud%20deploy1.JPG)
+![Alt text](https://github.com/MerVilaseca/azure-ansible/blob/main/terraform%20cloud%20deploy2.JPG)
 
 
 Azure Portal
-![Alt text](https://github.com/Jiolloker/terra-azure/blob/master/img/azure%20rg%20confirm.JPG)
-![Alt text](https://github.com/Jiolloker/terra-azure/blob/master/img/1.jpg)
-![Alt text](https://github.com/Jiolloker/terra-azure/blob/master/img/2.JPG)
+![Alt text](https://github.com/MerVilaseca/azure-ansible/blob/main/azure%20rg%20confirm.JPG)
+![Alt text](https://github.com/MerVilaseca/azure-ansible/blob/main/1.jpg)
+![Alt text](https://github.com/MerVilaseca/azure-ansible/blob/main/2.JPG)
 
 Ansible output
-![Alt text](https://github.com/Jiolloker/terra-azure/blob/master/img/ping.JPG)
-![Alt text](https://github.com/Jiolloker/terra-azure/blob/master/img/playbook.JPG)
+![Alt text](https://github.com/MerVilaseca/azure-ansible/blob/main/ping.JPG)
+![Alt text](https://github.com/MerVilaseca/azure-ansible/blob/main/playbook.JPG)
 
